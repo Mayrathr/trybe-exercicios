@@ -3,16 +3,47 @@ div:hover {
 }
 div:nth-of-type(1) {
   background-color: red;
+
 }
 div:nth-of-type(2) {
   background-color: orange;
+
 }
 div:nth-of-type(3) {
   background-color: yellow;
+
 }
 div:nth-of-type(4) {
   background-color: blue;
 }
 div:nth-of-type(5) {
   background-color: burlywood;
+}
+
+div:nth-of-type(1) >h3 {
+  background-color: red;
+  font-family: monospace;
+  font-size: 40px;
+}
+div:nth-of-type(2) >h3 {
+  background-color: orange;
+  font-family: serif;
+  font-size: 25px
+}
+div:nth-of-type(3) >h3 {
+  background-color: yellow;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  font-style: oblique;
+}
+div:nth-of-type(4) >h3{
+  background-color: blue;
+  font-family: serif;
+  font-size: 20px;
+}
+div:nth-of-type(5) >h3 {
+  background-color: burlywood;
+  font-family: monospace;
+  font-size: 30px;
+
 }
