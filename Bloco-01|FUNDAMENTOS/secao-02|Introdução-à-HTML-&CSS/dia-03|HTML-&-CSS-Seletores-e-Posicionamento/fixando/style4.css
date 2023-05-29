@@ -47,3 +47,6 @@ div:nth-of-type(5) >h3 {
   font-size: 30px;
 
 }
+div:nth-child(odd) h3 { 
+  font-style: italic;
+}
