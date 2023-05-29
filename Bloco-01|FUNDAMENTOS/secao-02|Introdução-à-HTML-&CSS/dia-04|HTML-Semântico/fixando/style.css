@@ -1,10 +1,4 @@
-h1 {
-  text-align: center;
-}
-ul{
-  list-style: none;
-}
-li{
+h1{
   text-align: center;
 }
 .first {
@@ -12,6 +6,7 @@ li{
   font-size: 20px;
   height: 50px;
   width: 200px;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -21,6 +16,7 @@ li{
   font-size: 20px;
   height: 50px;
   width: 300px;
+  display: inline-block;
 }
 
 .third {
@@ -28,4 +24,16 @@ li{
   font-size: 20px;
   height: 50px;
   width: 300px;
+  display: inline-block;
+}
+
+ul{
+  list-style: none;
+  text-align: center;
+}
+.premiacao ul li{
+  display: inline;
+}
+.premiacao{
+  text-align: center;
 }
