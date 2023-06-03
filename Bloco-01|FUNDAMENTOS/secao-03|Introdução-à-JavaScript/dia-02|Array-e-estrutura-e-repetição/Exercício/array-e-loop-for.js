@@ -26,7 +26,9 @@ for (let iMaior = 0; iMaior < numbers.length; iMaior += 1){
 for (let iImpar = 0; iImpar < numbers.length; iImpar += 1){
   if (numbers[iImpar] % 2 !== 0) {
     numImpares.push(numbers[iImpar]);
-    };
+    } else {
+      console.log("Nenhum valor impar encontrado");
+    }
  };
 
 
