@@ -11,4 +11,7 @@ const player = {
 
 let message = `A jogadora ${player.name} tem ${player.age} anos de idade.`;
 
+const achievements = `A jogadora Marta Silva foi eleita a melhor do mundo por ${player['bestInTheWorld'].length} vezes`;
+
+console.log(achievements);
 console.log(message);
