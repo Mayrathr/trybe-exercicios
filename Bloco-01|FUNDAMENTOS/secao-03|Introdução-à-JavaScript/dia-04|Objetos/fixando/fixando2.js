@@ -12,4 +12,4 @@ function addProperty(object, key, value){
 addProperty(customer, 'userGithub', 'Mayrathr');
 addProperty(customer, 'linkedIn', 'Mayrathr');
 
-console.log(Object.keys(customer));
+console.log(customer);
